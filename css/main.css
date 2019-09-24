@@ -118,6 +118,7 @@ h1{
 }
 #portfolio{
     background: #f7f7f7;
+    padding-bottom: 120px;
 }
 .works{
     margin-top: 70px;
@@ -130,4 +131,60 @@ h1{
 }
 .works img:last-child{
     float: right;
+}
+.blog {
+    margin-top: 75px;
+}
+.blog p {
+    font-size: 14px;
+}
+.blog_item{
+    margin-bottom: 90px;
+}
+.blog_item:last-child{
+    margin-bottom: 0;
+}
+.blog_item:nth-child(odd) .blog_info{
+    float: left;
+    text-align: right;
+}
+.blog_item:nth-child(odd) img{
+    margin-left: 40px;
+    width: 210px;
+    height: 210px;
+}
+
+.blog_item:nth-child(even) .blog_info{
+    float: right;
+    text-align: left;
+}
+.blog_item:nth-child(even) img{
+    margin-left: 360px;
+    width: 210px;
+    height: 210px;
+}
+
+.blog_info{
+    width: 320px;
+}
+.blog_info h3{
+    line-height: 1.55em;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color:#222222;
+}
+.blog_info p{
+    line-height: 0.7em;
+    font-size: 14px;
+    color: #777777;
+}
+.blog_info span{
+    text-transform: none;
+}
+footer p{
+    font-size: 14px;
+    text-align: center;
+    margin: 117px;
 }
